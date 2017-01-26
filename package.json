@@ -1,0 +1,26 @@
+{
+  "name": "sampleApp",
+  "version": "1.0.0",
+  "description": "sample boxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hardik Aryal",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-open": "^0.2.3"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "jshint-stylish": "^2.2.1"
+  }
+}
